@@ -231,10 +231,24 @@ footer {
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(237,199,155,1) 39%, rgba(113,62,90,1) 100%);
 }
 
+@keyframes text {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+
+
 h3 {
     color: black;
     font-family: 'Roboto slab', serif;
     font-size: small;
+    animation-name: text;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 
 /************    TABLET      ***********/
